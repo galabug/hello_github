@@ -96,8 +96,8 @@
     $ git remote add origin git@github.com:galabug/helloWorld.git
 
 # 需要继续学习的东西
-## 1. git
-## 2. markdown 语法
+## 1. [git 命令](https://galabug.github.io/hello-github/git.md)
+## 2. [markdown 语法](https://galabug.github.io/hello-github/markdowm.md)
 ## 3. 查看html--的方式
    - 进入html所在的项目Repository
    - 进入setting--->GitHub Pages--->Theme Chooser, 随便选一个主题
