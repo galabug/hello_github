@@ -4,14 +4,14 @@
 1. 注册好的你Gihub账号,下载好github客户端，不多说明记录。
 2. 在github网站上的用户setting里添加你电脑的SSH key了---让github账号信任电脑设备
   ### 步骤：
-  - 说明：总结就是在电脑生成一个ssh公钥，复制到你的github账号setting-->SSH and GPG keys中，用于加密通信
+  - 说明：就是在电脑生成一个ssh公钥，复制到你的github账号setting-->SSH and GPG keys中，用于加密通信
   - a 设置Git的user name和email：
      
         git config --global user.name "name"
       
         git config --global user.email "email@gmail.com"
 
-        ##### 调出输入命令的界面：文件夹上右键，点Git Bash Here，会出现cmd界面，下面的命令必须在这个界面才能执行。具体学习git相关
+      ##### 调出输入命令的界面：文件夹上右键，点Git Bash Here，会出现cmd界面，下面的命令必须在这个界面才能执行。具体学习git相关
 
   - b 生成SSH密钥过程：
       
@@ -27,11 +27,9 @@
 
 ## gitbub中建仓库repositories，从github网站clone项目到本地，不多说明记录
 
-## 做好上面的准备，上传文件到github  push
-
 ### 准备好你自己需要放在git的文件夹 获取源码：
 
-  git clone git@github.com:galabug/hello-github.git
+    git clone git@github.com:galabug/hello-github.git
 
 - 这样你的机器上就有一个repo了。
 
@@ -39,7 +37,7 @@
 
 -  仓库初始化：
    
-   git init
+    git init
 
 -  生成快照并存入项目索引等待commit：
     
@@ -49,7 +47,9 @@
 
 -  项目索引提交：
   
-  git commit
+    git commit
+
+## 做好上面的准备，上传文件到github  push
 
 ### 协作编程：
 
@@ -57,43 +57,43 @@
 
 -  推送本地更新到远程：
 
-  git push origin master
+    git push origin master
 
 -  更新远程更新到本地：
 
-  git pull origin master
+    git pull origin master
 
   补充：
   - 添加远端repo：
 
-    $ git remote add origin git@github.com:galabug/helloWorld.git
+      $ git remote add origin git@github.com:galabug/helloWorld.git
 
   - 删除原有的链接方式
 
-    $ git remote rm origin
+      $ git remote rm origin
 
 
 ### 初始用到的命令
 
-  $ git add .   （把所有修改加入）
+    $ git add .   （把所有修改加入）
 
-  $ git commit -m "commit my project"
+    $ git commit -m "commit my project"
 
-  $ git push -u origin master
+    $ git push -u origin master
 
 ### 记录问题：每次push都要密码，是用了https的方式链接项目，改用ssh方式解决问题
 
   1.查看链接方式
 
-   $ git remote -v
+    $ git remote -v
 
   2.删除原有的链接方式
 
-   $ git remote rm origin
+    $ git remote rm origin
 
   3.重新添加ssh方式的链接方式
 
-   $ git remote add origin git@github.com:galabug/helloWorld.git
+    $ git remote add origin git@github.com:galabug/helloWorld.git
 
 # 需要继续学习的东西
 ## 1. git
