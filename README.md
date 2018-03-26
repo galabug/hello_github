@@ -1,4 +1,4 @@
-# helloWorld 我的修改
+# helloWorld 
 ## 想要在github上传文件，首先要准备两个东西
 1. 注册好的你Gihub账号
 2. 在setting里的SSH里有你电脑的SSHKey了。
@@ -56,13 +56,17 @@
 
 5. 初始用到的命令
 
-git commit -m "commit my project"
-git push -u origin master
+  git commit -m "commit my project"
+  git push -u origin master
 
-每次push都要密码，是用了https的方式链接项目
-查看链接方式
-git remote -v
-删除原有的链接方式
-git remote rm origin
-重新添加ssh方式的链接方式
-git remote add origin git@github.com:galabug/helloWorld.git
+
+  每次push都要密码，是用了https的方式链接项目
+
+  查看链接方式
+  git remote -v
+
+  删除原有的链接方式
+  git remote rm origin
+
+  重新添加ssh方式的链接方式
+  git remote add origin git@github.com:galabug/helloWorld.git
