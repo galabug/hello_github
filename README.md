@@ -56,17 +56,16 @@
 
 5. 初始用到的命令
 
-  git commit -m "commit my project"
-  git push -u origin master
+    $ git commit -m "commit my project"
+    $ git push -u origin master
 
+  ### 记录问题：每次push都要密码，是用了https的方式链接项目，改用ssh方式解决问题
 
-  每次push都要密码，是用了https的方式链接项目
+  1.查看链接方式
+    $ git remote -v
 
-  查看链接方式
-  git remote -v
+  2.删除原有的链接方式
+    $ git remote rm origin
 
-  删除原有的链接方式
-  git remote rm origin
-
-  重新添加ssh方式的链接方式
-  git remote add origin git@github.com:galabug/helloWorld.git
+  3.重新添加ssh方式的链接方式
+    $ git remote add origin git@github.com:galabug/helloWorld.git
