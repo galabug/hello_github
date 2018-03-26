@@ -1,3 +1,5 @@
+<meta charset="utf-8">
+
 # git 常用指令
 
 1. 新建代码库

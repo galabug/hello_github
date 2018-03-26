@@ -1,3 +1,5 @@
+<meta charset="utf-8">
+
 # hello Github
 
 ## 从电脑往github上传文件，需要两步
