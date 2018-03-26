@@ -1,4 +1,16 @@
-<meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>选择器</title>
+  <link rel="stylesheet" href="css/common.css">
+  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+</head>
+
+<body>>
 
 # git 常用指令
 
@@ -350,3 +362,6 @@
     $ git stash
     
     $ git stash pop
+
+    </body>
+</html>
