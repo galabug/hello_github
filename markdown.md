@@ -1,5 +1,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
+# encode=utf8
+# coding=utf8
+
 # javascript
 ## 标题
 - # 一级标题
